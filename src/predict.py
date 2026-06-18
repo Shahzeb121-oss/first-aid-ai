@@ -211,3 +211,4 @@ def predict(query: str):
 
     result = df.iloc[best_idx].to_dict()
     return result, best_score
+
