@@ -7,7 +7,7 @@ Tests both exact medical terms AND casual everyday language.
 import sys, os
 # Adjust this path to your project root
 PROJECT_ROOT = r"C:\Users\Kamran Computers\Downloads\first_aid_ai"
-sys.path.insert(0, PROJECT_ROOT)
+sys.path.insert(0, PROJECT_ROOT) 
 
 from src.predict import predict
 
