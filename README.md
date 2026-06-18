@@ -10,7 +10,7 @@
 [![SentenceTransformers](https://img.shields.io/badge/SentenceTransformers-all--MiniLM--L6--v2-brightgreen)](https://www.sbert.net/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-![Demo Screenshot](assets/demo.png)
+
 
 </div>
 
@@ -150,8 +150,6 @@ User query  ──►  Query Expansion  ──►  Semantic Score  ──┐
 ```
 first_aid_ai/
 │
-├── assets/
-│   └── demo.png                  # Screenshot shown in README hero
 │
 ├── data/
 │   └── first_aid.csv              # Dataset — 67 first-aid situations
