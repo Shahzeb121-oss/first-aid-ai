@@ -1,0 +1,18 @@
+# ── Web UI ────────────────────────────────────────────────────────────────────
+streamlit==1.35.0
+
+# ── ML / NLP ──────────────────────────────────────────────────────────────────
+# NOTE: PyTorch is NOT listed here — install it separately before this file:
+#   pip install torch==2.1.0 --index-url https://download.pytorch.org/whl/cpu
+#
+# The default `pip install torch` pulls the CUDA/GPU build which crashes on
+# most Windows machines with a DLL initialization error.
+sentence-transformers==2.7.0
+scikit-learn==1.5.0
+
+# ── Data ──────────────────────────────────────────────────────────────────────
+pandas==2.2.2
+numpy==1.26.4
+
+# ── Serialization / Compatibility ─────────────────────────────────────────────
+protobuf==4.25.3
